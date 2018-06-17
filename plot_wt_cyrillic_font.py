@@ -7,4 +7,4 @@ prop = font_manager.FontProperties(fname=path)
 mpl.rcParams['font.family'] = prop.get_name()
 
 fig, ax = plt.subplots()
-ax.set_title('Test text', fontproperties=prop, size=40)
+ax.set_title(u'Test text', fontproperties=prop, size=40)
